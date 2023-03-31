@@ -1,0 +1,846 @@
+/*vista-telefono-index*/
+@media screen and (max-width: 375px) {
+  .html-index { 
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .blue {
+    background-color: #344D6C;
+  }
+  .menu-index {
+    border: none;
+    visibility: hidden;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #344D6C;
+    position: relative;
+  }
+  .fondo-laptop {
+    display: none;
+    visibility: hidden;
+  }
+  .fondo-movil {
+    width: 375px;
+  }
+  .body {
+    background-color: #2e1864;
+    overflow-x: hidden;
+  }
+  .bienvenida {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .texto-index {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: small;
+    color: white;
+    margin: 20px;
+  }
+  .lineup {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .boton-lineup {
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(46, 24, 100, 0.9294117647);
+    color: white;
+    border: none;
+  }
+  .link-lineup {
+    color: white;
+  }
+  .mapa {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .iframe {align-items: center;
+    height: 350px;
+    width: 350px;
+  margin-left: 7px;
+  }
+  .footer {
+    background-color: #344D6C;
+    height: 90px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .logoblanco{
+    height: 20px;
+  }
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+  .logoblanco {
+    height: 37px;
+    display: block;
+  }
+}
+/*vista-laptop-index*/
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .menu-index {
+    border: none;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #344D6C;
+    position: relative;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav a:hover {
+    background-color: #233448;
+    color: white;
+  }
+  .fondo-laptop {
+    height: auto;
+    width: 1440px;
+  }
+  .body {
+    background-color: #2e1864;
+    overflow-x: hidden;}
+  .bienvenida {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .texto-index {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: small;
+    color: white;
+    margin: 20px;
+  }
+  .lineup {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .boton-lineup {
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(46, 24, 100, 0.9294117647);
+    color: white;
+    border: none;
+  }
+  .link-lineup {
+    color: white;
+  }
+  .mapa {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .iframe {
+    height: 375px;
+    width: 375px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .fondo-movil {
+    display: none;
+    width: 375px;
+  }
+  .bienvenida {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .texto-index {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: small;
+    color: white;
+    margin: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+  .lineup {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .boton-lineup {
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(46, 24, 100, 0.9294117647);
+    color: white;
+    border: none;
+  }
+  .link-lineup {
+    color: white;
+  }
+  .mapa {
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .iframe {
+    height: 375px;
+    width: 375px;
+  }
+  .footer {
+    background-color: #344D6C;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+  .logoblanco {
+    height: 37px;
+    display: block;
+  }
+}
+.footer {
+  background-color: #344D6C;
+  height: 80px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.logoblanco {
+  height: 37px;
+  display: block;
+}
+
+/*vista-mobile-sobre-nosotros*/
+@media screen and (max-width: 375px) {
+  .fondo-sobre {
+    background-image: url(../Imagenes-supernova/fondo\ mobile\ sobre\ nosotros.png);
+  }
+  .titulo {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+  }
+  .texto1 {
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 75px;
+    color: white;
+  }
+  .texto-verde {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 75px;
+    color: #69F4BD;
+  }
+  .texto2 {
+    font-size: medium;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 200px;
+    margin-top: 75px;
+    color: white;
+  }
+}
+/*vista-escritorio-sobre-nosotros*/
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .fondo-sobre {
+    background-image: url(../Imagenes-supernova/fondo\ sobre\ nosotros.png);
+  }
+  .titulo {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+  }
+  .texto1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 75px;
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+  .texto-verde {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 75px;
+    color: #69F4BD;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+  .texto2 {
+    font-size: medium;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 200px;
+    margin-top: 75px;
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+}
+/*vista-mobile-lineup*/
+@media screen and (max-width: 375px) {
+  .lineup1 {
+    background-image: url(../Imagenes-supernova/fondo\ lineup\ mobile.png);
+  }
+  .titulo-lineup {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .lista-1 {
+    font-size: medium;
+    text-align: center;
+    margin: 20px;
+    list-style: none;
+  }
+  .titulo-1 {
+    font-size: 0px;
+    text-align: center;
+    color: #67f4bb;
+    background-color: black;
+    margin-top: -12px;
+  }
+  .titulo-2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    margin-left: 137px;
+    color: #67f4bb;
+  }
+  .lista-1 {
+    font-size: medium;
+    text-align: center;
+    margin: 20px;
+    color: rgb(112, 154, 158);
+    list-style: none;
+  }
+  .lista-2 {
+    font-size: medium;
+    text-align: center;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+  }
+}
+/*vista-escritorio-lineup*/
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .lineup1 {
+    background-image: url(../Imagenes-supernova/fondo\ lineup.png);
+  }
+  .titulo-lineup {
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .lista-1 {
+    font-size: medium;
+    text-align: center;
+    margin: 20px;
+    list-style: none;
+  }
+  .titulo-1 {
+    font-size: 30px;
+    text-align: center;
+    color: #69F4BD;
+    background-color: black;
+    margin-top: -12px;
+  }
+  .titulo-2 {
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #67f4bb;
+  }
+  .lista-2 {
+    font-size: medium;
+    text-align: center;
+    margin: 20px;
+    color: black;
+    list-style: none;
+  }
+}
+/*vista-mobile-eventos*/
+@media screen and (max-width: 375px) {
+  .html-eventos { width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .fondo-eventos {
+    background-image: url(../Imagenes-supernova/fondo\ eventos\ mobile.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  .eventos-escritorio {
+    color: white;
+    margin-bottom: 800px;
+    margin-top: 30px;
+  }
+  .titulo-eventos1 {
+    position: relative;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+  }
+  .texto-despegue {
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  .titulo-eventos2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: -9px;
+  }
+  .titulo-eventos3 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+  }
+  .fechas-eventos {
+    color: #69F4BD;
+    font-family: "Rubik", sans-serif;
+    margin-top: 30px;
+  }
+  .nombre-eventos {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-family: "Rubik", sans-serif;
+  }
+  .texto-eventos {
+    color: white;
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton-comprar {
+    margin: 0 auto;
+    display: block;
+    background-color: #69F4BD;
+    color: black;
+    border: none;
+    text-decoration: none;
+    width: 335px;
+    margin-bottom: 20px;
+  }
+}
+/*vista-escritorio-eventos*/
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .fondo-eventos {overflow-x: hidden;
+    background-image: url(../Imagenes-supernova/fondo\ eventos\ escritorio.png);
+  }
+  .eventos-escritorio {
+    color: white;
+    margin-bottom: 340px;
+    margin-top: 50px;
+  }
+  .titulo-eventos1 {
+    position: relative;
+    text-align: left;
+    font-family: "Rubik", sans-serif;
+    margin-left: 20px;
+    margin-right: 450px;
+  }
+  .texto-despegue {
+    margin-top: 80px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 450px;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  .titulo-eventos2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 390px;
+  }
+  .titulo-eventos3 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-size: 45px;
+  }
+  .fechas-eventos {
+    color: #69F4BD;
+    font-family: "Rubik", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .nombre-eventos {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-family: "Rubik", sans-serif;
+  }
+  .texto-eventos {
+    color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton-comprar {
+    margin: 0 auto;
+    display: block;
+    background-color: #69F4BD;
+    color: black;
+    border: none;
+    text-decoration: none;
+    width: 335px;
+    margin-bottom: 20px;
+  }
+}
+/*vista-mobile-entradas*/
+@media screen and (max-width: 375px) {
+  .fondo-entradas {
+    background-image: url(../Imagenes-supernova/fondo\ entradas\ mobile.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+  .titulo-entradas {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-family: "Rubik", sans-serif;
+  }
+  .texto-entradas {
+    color: white;
+    text-align: center;
+    margin: 20px;
+  }
+  .luces-eternas {
+    margin-top: 50px;
+    width: 280px;
+  }
+  .entradas1 {
+    width: 375px;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .entradas2 {
+    width: 375px;
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px 0px;
+  }
+  .tipo-entradas {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .ubicacion {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .valor {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .precio {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .boton-comprar {
+    margin: 0 auto;
+    display: block;
+    background-color: #69F4BD;
+    color: black;
+    border: none;
+    text-decoration: none;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .boton-comprar-agotado {
+    margin: 0 auto;
+    display: block;
+    background-color: #979b99;
+    color: black;
+    border: none;
+    text-decoration: none;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .fondo-entradas {
+    background-image: url(../Imagenes-supernova/fondo\ entradas.png);
+  }
+  .titulo-entradas {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-family: "Rubik", sans-serif;
+  }
+  .texto-entradas {
+    color: white;
+    text-align: center;
+    margin: 20px;
+  }
+  .luces-eternas {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .tipo-entradas {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .ubicacion {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .valor {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .precio {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .boton-comprar-agotado {
+    margin: 0 auto;
+    display: block;
+    background-color: #979b99;
+    color: black;
+    border: none;
+    text-decoration: none;
+    width: 335px;
+    margin-bottom: 20px;
+  }
+}
+/*vista-mobile-datos*/
+@media screen and (max-width: 375px) {
+  .fondo-datos {
+    background-image: url(../Imagenes-supernova/fondo\ entradas\ mobile.png);
+  }
+  .fechas-datos {
+    color: #69F4BD;
+    font-family: "Rubik", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .luces-eternas-datos {
+    margin-left: 25px;
+  }
+  .nombre-datos {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-family: "Rubik", sans-serif;
+  }
+  .titulo-pago {
+    margin: 30px;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+  }
+  .formulario {
+    background-color: white;
+    margin-top: 20px;
+  }
+  .formulario ul {
+    text-align: center;
+    width: 250px;
+    list-style-type: none;
+    list-style-position: outside;
+    margin-left: 69px;
+    padding: 0px;
+  }
+  .formulario li {
+    padding: 12px;
+    position: relative;
+  }
+  .formulario h2 {
+    margin: 0;
+    display: inline;
+  }
+  .formulario label {
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    padding: 3px;
+  }
+  .formulario input {
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+  }
+  .credito {
+    height: 25px;
+  }
+  .debito {
+    height: 15px;
+  }
+  .boton-comprar-datos {
+    display: block;
+    background-color: #69F4BD;
+    color: black;
+    border: none;
+    text-decoration: none;
+    width: 255px;
+    margin-bottom: 20px;
+  }
+}
+/*vista-escritorio-datos*/
+@media screen and (min-width: 376px) and (max-width: 1440px) {
+  .fondo-datos {
+    background-image: url(../Imagenes-supernova/fondo\ entradas.png);
+  }
+  .fechas-datos {
+    color: #69F4BD;
+    font-family: "Rubik", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .nombre-datos {
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-family: "Rubik", sans-serif;
+  }
+  .luces-eternas-datos {
+    margin-left: 513px;
+  }
+  .luces-eternas {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .tipo-entradas {
+    text-align: center;
+    color: white;
+    margin: 20px;
+  }
+  .titulo-pago {
+    margin: 30px;
+    font-family: "Rubik", sans-serif;
+  }
+  .formulario {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 20px;
+  }
+  .formulario ul {
+    width: 750px;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+  }
+  .formulario li {
+    padding: 12px;
+    position: relative;
+  }
+  .formulario h2 {
+    margin: 0;
+    display: inline;
+  }
+  .formulario label {
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    padding: 3px;
+  }
+  .formulario input {
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+  }
+  .credito {
+    height: 25px;
+  }
+  .debito {
+    height: 15px;
+  }
+  .boton-comprar-datos {
+    margin-left: 150px;
+    display: block;
+    background-color: #69F4BD;
+    color: black;
+    border: none;
+    text-decoration: none;
+    width: 335px;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
